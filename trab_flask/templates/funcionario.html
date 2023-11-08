@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../static/styles.css">
+    <title>Funcionario</title>
+</head>
+<body>
+    <div class="container">
+        <form action="/funcionario" method="post">
+            <label for="primeiro_nome">Primeiro Nome </label>
+            <input type="text" name="primeiro_nome">
+
+            <label for="sobrenome">Sobrenome </label>
+            <input type="text" name="sobrenome">
+
+            <label for="data_admissao">Data de Admissao </label>
+            <input type="date" name="data_admissao">
+
+            <label for="status_funcionario">Status do Funcionario</label>
+            <input type="text" name="status_funcionario">
+
+            <label for="id_setor">Id do Setor </label>
+            <input type="number" name="id_setor">
+
+            <input type="submit" value="Adicionar">
+        </form>
+        <a href="/"><button>Voltar</button></a>
+    </div>
+</body>
+</html>

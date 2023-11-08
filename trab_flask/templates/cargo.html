@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../static/styles.css">
+    <title>Cargo</title>
+</head>
+<body>
+    <div class="container">
+        <form action="/cargo" method="post">
+            <label for="nome">Nome do cargo</label>
+            <input type="text" name="nome">
+
+            <label for="id_setor">Id do Setor</label>
+            <input type="number" name="id_setor">
+
+            <input type="submit" value="Adicionar">
+        </form>
+        <a href="/"><button>Voltar</button></a>
+    </div>
+</body>
+</html>
